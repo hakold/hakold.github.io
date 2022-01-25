@@ -15,7 +15,7 @@ var CONFIG = {
   postWidget: {"endText":true},
   nightMode: {"enable":true},
   back2top: {"enable":true},
-  codeblock: {"style":"default","highlight":"light","wordWrap":false},
+  codeblock: {"style":"carbon","highlight":"ocean","wordWrap":true},
   reward: false,
   fancybox: false,
   zoomImage: {"gapAside":"20px"},
@@ -28,7 +28,169 @@ var CONFIG = {
   sourcePath: {"js":"js","css":"css","images":"images"},
 };
 
-window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 5.4.0"></head><body><div class="container" id="container"><header class="header" id="header"><div class="header-inner"><nav class="header-nav header-nav--fixed"><div class="header-nav-inner"><div class="header-nav-menubtn"><i class="fas fa-bars"></i></div><div class="header-nav-menu"><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/"><span class="header-nav-menu-item__icon"><i class="fas fa-home"></i></span><span class="header-nav-menu-item__text">首页</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/archives/"><span class="header-nav-menu-item__icon"><i class="fas fa-folder-open"></i></span><span class="header-nav-menu-item__text">文章</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/categories/"><span class="header-nav-menu-item__icon"><i class="fas fa-layer-group"></i></span><span class="header-nav-menu-item__text">分类</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/tags/"><span class="header-nav-menu-item__icon"><i class="fas fa-tags"></i></span><span class="header-nav-menu-item__text">标签</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/about/"><span class="header-nav-menu-item__icon"><i class="fas fa-address-card"></i></span><span class="header-nav-menu-item__text">关于我</span></a></div></div><div class="header-nav-mode"><div class="mode"><div class="mode-track"><span class="mode-track-moon"></span><span class="mode-track-sun"></span></div><div class="mode-thumb"></div></div></div></div></nav><div class="header-banner"><div class="header-banner-info"><div class="header-banner-info__title">Hakold的程序和摄影学习记录网</div><div class="header-banner-info__subtitle"></div></div></div></div></header><main class="main" id="main"><div class="main-inner"><div class="content-wrap" id="content-wrap"><div class="content content-home" id="content"><section class="postlist"><article class="postlist-item post"><header class="post-header"><h1 class="post-title"><a class="post-title__link" href="/2021/08/24/Android%E6%B8%B8%E6%88%8F%E9%80%86%E5%90%91%E7%9A%84%E5%88%9D%E5%B0%9D%E8%AF%95/">Android游戏逆向的初尝试</a></h1><div class="post-meta"><span class="post-meta-item post-meta-item--createtime"><span class="post-meta-item__icon"><i class="far fa-calendar-plus"></i></span><span class="post-meta-item__info">发表于</span><span class="post-meta-item__value">2021-08-24</span></span><span class="post-meta-item post-meta-item--updatetime"><span class="post-meta-item__icon"><i class="far fa-calendar-check"></i></span><span class="post-meta-item__info">更新于</span><span class="post-meta-item__value">2021-08-25</span></span></div></header><div class="post-body"><div class="post-excerpt">
+window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 5.4.0"></head><body><div class="container" id="container"><header class="header" id="header"><div class="header-inner"><nav class="header-nav header-nav--fixed"><div class="header-nav-inner"><div class="header-nav-menubtn"><i class="fas fa-bars"></i></div><div class="header-nav-menu"><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/"><span class="header-nav-menu-item__icon"><i class="fas fa-home"></i></span><span class="header-nav-menu-item__text">首页</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/archives/"><span class="header-nav-menu-item__icon"><i class="fas fa-folder-open"></i></span><span class="header-nav-menu-item__text">文章</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/categories/"><span class="header-nav-menu-item__icon"><i class="fas fa-layer-group"></i></span><span class="header-nav-menu-item__text">分类</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/tags/"><span class="header-nav-menu-item__icon"><i class="fas fa-tags"></i></span><span class="header-nav-menu-item__text">标签</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/about/"><span class="header-nav-menu-item__icon"><i class="fas fa-address-card"></i></span><span class="header-nav-menu-item__text">关于我</span></a></div></div><div class="header-nav-mode"><div class="mode"><div class="mode-track"><span class="mode-track-moon"></span><span class="mode-track-sun"></span></div><div class="mode-thumb"></div></div></div></div></nav><div class="header-banner"><div class="header-banner-info"><div class="header-banner-info__title">Hakold的程序和摄影学习记录网</div><div class="header-banner-info__subtitle"></div></div></div></div></header><main class="main" id="main"><div class="main-inner"><div class="content-wrap" id="content-wrap"><div class="content content-home" id="content"><section class="postlist"><article class="postlist-item post"><header class="post-header"><h1 class="post-title"><a class="post-title__link" href="/2022/01/25/markdownlearn1/">hexo常用的markdown写作语法</a></h1><div class="post-meta"><span class="post-meta-item post-meta-item--createtime"><span class="post-meta-item__icon"><i class="far fa-calendar-plus"></i></span><span class="post-meta-item__info">发表于</span><span class="post-meta-item__value">2022-01-25</span></span><span class="post-meta-item post-meta-item--updatetime"><span class="post-meta-item__icon"><i class="far fa-calendar-check"></i></span><span class="post-meta-item__info">更新于</span><span class="post-meta-item__value">2022-01-25</span></span></div></header><div class="post-body"><div class="post-excerpt"><p>本文是在参考文章<span class="exturl"><a class="exturl__link"   target="_blank" rel="noopener" href="https://www.jianshu.com/p/6e4488ca7ce4" >用MackDown语法写hexo博客</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>后编写。</p>
+<p>学习到的内容和输出的内容不保证正确，请谨慎学习。</p>
+<p>建议学习还是要到官网去读文档。<span class="exturl"><a class="exturl__link"   target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/tag-plugins" >阅读hexo文档</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+
+        <h1 id="标题"   >
+          <a href="#标题" class="heading-link"><i class="fas fa-link"></i></a><a href="#标题" class="headerlink" title="标题"></a>标题</h1>
+      <p>这是最为常用的格式，在平时常用的的文本编辑器中大多是这样实现的：输入文本、选中文本、设置标题格式。</p>
+<p>而在 Markdown 中，你只需要在文本前面加上 # 即可，同理、你还可以增加二级标题、三级标题、四级标题、五级标题和六级标题，总共六级，只需要增加 # 即可，标题字号相应降低。例如：</p>
+<figure class="highlight plain"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br><span class="line">#### 四级标题</span><br><span class="line">##### 五级标题</span><br><span class="line">###### 六级标题</span><br></pre></td></tr></table></div></figure>
+
+<p>注：# 和「一级标题」之间建议保留一个字符的空格，这是最标准的 Markdown 写法。</p>
+
+        <h1 id="列表"   >
+          <a href="#列表" class="heading-link"><i class="fas fa-link"></i></a><a href="#列表" class="headerlink" title="列表"></a>列表</h1>
+      <p>列表格式也很常用，在 Markdown 中，你只需要在文字前面加上 - 就可以了，例如：</p>
+<figure class="highlight plain"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">- 文本1</span><br><span class="line">- 文本2</span><br><span class="line">- 文本3</span><br></pre></td></tr></table></div></figure>
+
+<p>如果你希望有序列表，<br>也可以在文字前面加上 1. 2. 3. 就可以了，例如：</p>
+<p>`</p>
+<ol>
+<li>文本1</li>
+<li>文本2</li>
+<li>文本3<br>`</li>
+</ol>
+<p>注：-、1.和文本之间要保留一个字符的空格。</p>
+
+        <h1 id="链接和图片"   >
+          <a href="#链接和图片" class="heading-link"><i class="fas fa-link"></i></a><a href="#链接和图片" class="headerlink" title="链接和图片"></a>链接和图片</h1>
+      <p>在 Markdown 中，插入链接不需要其他按钮，你只需要使用 <code>[显示文本](链接地址)</code> 这样的语法即可，例如：</p>
+<p><a href="http://www.tampular.studio/">博客</a><br><span class="exturl"><a class="exturl__link"   target="_blank" rel="noopener" href="https://www.google.com/" >谷歌</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+<p>在 Markdown 中，插入图片不需要其他按钮，你只需要使用 [图片上传失败…(image-5fdc5-1510890177031)] 这样的语法即可，例如：</p>
+<p><img   src="http://upload-images.jianshu.io/upload_images/259-0ad0d0bfc1c608b6.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" style="" ></p>
+<p>注：插入图片的语法和链接的语法很像，只是前面多了一个 ！。</p>
+
+        <h1 id="引用"   >
+          <a href="#引用" class="heading-link"><i class="fas fa-link"></i></a><a href="#引用" class="headerlink" title="引用"></a>引用</h1>
+      <p>在我们写作的时候经常需要引用他人的文字，这个时候引用这个格式就很有必要了，在 Markdown 中，你只需要在你希望引用的文字前面加上 &gt; 就好了，例如：</p>
+<figure class="highlight plain"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt; 一盏灯， 一片昏黄； 一简书， 一杯淡茶。 守着那一份淡定， 品读属于自己的寂寞。 保持淡定， 才能欣赏到最美丽的风景！ 保持淡定， 人生从此不再寂寞。</span><br></pre></td></tr></table></div></figure>
+
+<p>注：&gt; 和文本之间要保留一个字符的空格。</p>
+<p>最终显示的就是：</p>
+<blockquote>
+<p>一盏灯， 一片昏黄； 一简书， 一杯淡茶。 守着那一份淡定， 品读属于自己的寂寞。 保持淡定， 才能欣赏到最美丽的风景！ 保持淡定， 人生从此不再寂寞。</p>
+</blockquote>
+
+        <h1 id="粗体和斜体"   >
+          <a href="#粗体和斜体" class="heading-link"><i class="fas fa-link"></i></a><a href="#粗体和斜体" class="headerlink" title="粗体和斜体"></a>粗体和斜体</h1>
+      <p>Markdown 的粗体和斜体也非常简单，用两个 * 包含一段文本就是粗体的语法，用一个 * 包含一段文本就是斜体的语法。例如：</p>
+<figure class="highlight plain"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">*一盏灯*， 一片昏黄；**一简书**， 一杯淡茶。 守着那一份淡定， 品读属于自己的寂寞。 保持淡定， 才能欣赏到最美丽的风景！ 保持淡定， 人生从此不再寂寞。</span><br></pre></td></tr></table></div></figure>
+
+<p>最终显示的就是下文，其中「一盏灯」是斜体，「一简书」是粗体：</p>
+<p> <em>一盏灯</em>， 一片昏黄；<strong>一简书</strong>， 一杯淡茶。 守着那一份淡定， 品读属于自己的寂寞。 保持淡定， 才能欣赏到最美丽的风景！ 保持淡定， 人生从此不再寂寞。</p>
+
+        <h1 id="代码引用"   >
+          <a href="#代码引用" class="heading-link"><i class="fas fa-link"></i></a><a href="#代码引用" class="headerlink" title="代码引用"></a>代码引用</h1>
+      <p> 需要引用代码时，如果引用的语句只有一段，不分行，可以用 ` 将语句包起来。<br>如果引用的语句为多行，可以将```置于这段代码的首行和末行。</p>
+<figure class="highlight plain"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;h1&gt; Hello World &lt;&#x2F;h1&gt;</span><br></pre></td></tr></table></div></figure>
+
+
+        <h1 id="表格"   >
+          <a href="#表格" class="heading-link"><i class="fas fa-link"></i></a><a href="#表格" class="headerlink" title="表格"></a>表格</h1>
+      <p>相关代码：</p>
+<figure class="highlight plain"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">|Tables        | Are           | Cool  |</span><br><span class="line">| ------------- |:-------------:| -----:|</span><br><span class="line">| col 3 is      | right-aligned | $1600 |</span><br><span class="line">| col 2 is      | centered      |   $12 |</span><br><span class="line">| zebra stripes | are neat      |    $1 |</span><br></pre></td></tr></table></div></figure>
+<p>显示效果：</p>
+<div class="table-container"><table>
+<thead>
+<tr>
+<th>Tables</th>
+<th align="center">Are</th>
+<th align="right">Cool</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>col 3 is</td>
+<td align="center">right-aligned</td>
+<td align="right">$1600</td>
+</tr>
+<tr>
+<td>col 2 is</td>
+<td align="center">centered</td>
+<td align="right">$12</td>
+</tr>
+<tr>
+<td>zebra stripes</td>
+<td align="center">are neat</td>
+<td align="right">$1</td>
+</tr>
+</tbody></table></div>
+
+        <h1 id="显示链接中带括号的图片"   >
+          <a href="#显示链接中带括号的图片" class="heading-link"><i class="fas fa-link"></i></a><a href="#显示链接中带括号的图片" class="headerlink" title="显示链接中带括号的图片"></a>显示链接中带括号的图片</h1>
+      <p>![][1]<br>[1]: <span class="exturl"><a class="exturl__link"   target="_blank" rel="noopener" href="http://latex.codecogs.com/gif.latex?%5Cprod%20%5C(n_%7Bi%7D%5C)+1" >http://latex.codecogs.com/gif.latex?\prod%20\(n_{i}\)+1</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+<p><code>![][1] [1]: http://latex.codecogs.com/gif.latex?\prod%20\(n_&#123;i&#125;\)+1</code></p>
+</div></div></article><article class="postlist-item post"><header class="post-header"><h1 class="post-title"><a class="post-title__link" href="/2022/01/25/hexocommand/">hexo最常用的几个命令</a></h1><div class="post-meta"><span class="post-meta-item post-meta-item--createtime"><span class="post-meta-item__icon"><i class="far fa-calendar-plus"></i></span><span class="post-meta-item__info">发表于</span><span class="post-meta-item__value">2022-01-25</span></span><span class="post-meta-item post-meta-item--updatetime"><span class="post-meta-item__icon"><i class="far fa-calendar-check"></i></span><span class="post-meta-item__info">更新于</span><span class="post-meta-item__value">2022-01-25</span></span></div></header><div class="post-body"><div class="post-excerpt">
+        <h1 id="Hexo-最常用的几个命令"   >
+          <a href="#Hexo-最常用的几个命令" class="heading-link"><i class="fas fa-link"></i></a><a href="#Hexo-最常用的几个命令" class="headerlink" title="Hexo 最常用的几个命令"></a>Hexo 最常用的几个命令</h1>
+      
+        <h2 id="hexo-s"   >
+          <a href="#hexo-s" class="heading-link"><i class="fas fa-link"></i></a><a href="#hexo-s" class="headerlink" title="hexo s"></a>hexo s</h2>
+      <p><code>hexo s</code></p>
+
+        <h2 id="启动本地服务器，用于预览主题。默认地址：-http-localhost-4000"   >
+          <a href="#启动本地服务器，用于预览主题。默认地址：-http-localhost-4000" class="heading-link"><i class="fas fa-link"></i></a><a href="#启动本地服务器，用于预览主题。默认地址：-http-localhost-4000" class="headerlink" title="启动本地服务器，用于预览主题。默认地址： http://localhost:4000/"></a>启动本地服务器，用于预览主题。默认地址： <span class="exturl"><a class="exturl__link"   target="_blank" rel="noopener" href="http://localhost:4000/" >http://localhost:4000/</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></h2>
+      <ul>
+<li>hexo s 是 hexo server 的缩写，命令效果一致</li>
+<li>预览的同时可以修改文章内容或主题代码，保存后刷新页面即可</li>
+<li>对 Hexo 根目录 _config.yml 的修改，需要重启本地服务器后才能预览效果</li>
+</ul>
+
+        <h2 id="hexo-new"   >
+          <a href="#hexo-new" class="heading-link"><i class="fas fa-link"></i></a><a href="#hexo-new" class="headerlink" title="hexo new"></a>hexo new</h2>
+      <p><code>hexo new &quot;新页面名字&quot;</code></p>
+
+        <h2 id="新建一篇标题为-《新页面名字》-的文章，因为标题里有空格，所以加上了引号。"   >
+          <a href="#新建一篇标题为-《新页面名字》-的文章，因为标题里有空格，所以加上了引号。" class="heading-link"><i class="fas fa-link"></i></a><a href="#新建一篇标题为-《新页面名字》-的文章，因为标题里有空格，所以加上了引号。" class="headerlink" title="新建一篇标题为 《新页面名字》 的文章，因为标题里有空格，所以加上了引号。"></a>新建一篇标题为 《新页面名字》 的文章，因为标题里有空格，所以加上了引号。</h2>
+      <ul>
+<li>文章标题可以在对应 md 文件里改，新建时标题可以写的简单些</li>
+</ul>
+
+        <h2 id="hexo-d"   >
+          <a href="#hexo-d" class="heading-link"><i class="fas fa-link"></i></a><a href="#hexo-d" class="headerlink" title="hexo d"></a>hexo d</h2>
+      <p><code>hexo d</code></p>
+
+        <h2 id="自动生成网站静态文件，并且部署到设定的仓库"   >
+          <a href="#自动生成网站静态文件，并且部署到设定的仓库" class="heading-link"><i class="fas fa-link"></i></a><a href="#自动生成网站静态文件，并且部署到设定的仓库" class="headerlink" title="自动生成网站静态文件，并且部署到设定的仓库"></a>自动生成网站静态文件，并且部署到设定的仓库</h2>
+      <ul>
+<li>hexo d 是 hexo deploy 的缩写，命令效果一致</li>
+</ul>
+
+        <h2 id="hexo-clean"   >
+          <a href="#hexo-clean" class="heading-link"><i class="fas fa-link"></i></a><a href="#hexo-clean" class="headerlink" title="hexo clean"></a>hexo clean</h2>
+      <p><code>hexo clean</code></p>
+
+        <h2 id="清除缓存文件-db-json-和已生成的静态文件-public"   >
+          <a href="#清除缓存文件-db-json-和已生成的静态文件-public" class="heading-link"><i class="fas fa-link"></i></a><a href="#清除缓存文件-db-json-和已生成的静态文件-public" class="headerlink" title="清除缓存文件 db.json 和已生成的静态文件 public"></a>清除缓存文件 db.json 和已生成的静态文件 public</h2>
+      <ul>
+<li>网站显示异常时可以执行这条命令试试</li>
+</ul>
+
+        <h2 id="hexo-g"   >
+          <a href="#hexo-g" class="heading-link"><i class="fas fa-link"></i></a><a href="#hexo-g" class="headerlink" title="hexo g"></a>hexo g</h2>
+      <p><code>hexo g</code></p>
+
+        <h2 id="生成网站静态文件到默认设置的-public-文件夹"   >
+          <a href="#生成网站静态文件到默认设置的-public-文件夹" class="heading-link"><i class="fas fa-link"></i></a><a href="#生成网站静态文件到默认设置的-public-文件夹" class="headerlink" title="生成网站静态文件到默认设置的 public 文件夹"></a>生成网站静态文件到默认设置的 public 文件夹</h2>
+      <ul>
+<li>便于查看网站生成的静态文件或者手动部署网站</li>
+<li>如果使用自动部署，不需要先执行该命令</li>
+<li>hexo g 是 hexo generate 的缩写，命令效果一致</li>
+</ul>
+
+        <h2 id="hexo-new-page"   >
+          <a href="#hexo-new-page" class="heading-link"><i class="fas fa-link"></i></a><a href="#hexo-new-page" class="headerlink" title="hexo new page"></a>hexo new page</h2>
+      <p><code>hexo new page about</code></p>
+
+        <h2 id="新建一个标题为-aboutme-的页面，默认链接地址为-主页地址-about"   >
+          <a href="#新建一个标题为-aboutme-的页面，默认链接地址为-主页地址-about" class="heading-link"><i class="fas fa-link"></i></a><a href="#新建一个标题为-aboutme-的页面，默认链接地址为-主页地址-about" class="headerlink" title="新建一个标题为 aboutme 的页面，默认链接地址为 主页地址/about/"></a>新建一个标题为 aboutme 的页面，默认链接地址为 主页地址/about/</h2>
+      <ul>
+<li>标题可以为中文，但一般习惯用英文</li>
+<li>页面标题和文章一样可以随意修改</li>
+<li>页面不会出现在首页文章列表和归档中，也不支持设置分类和标签</li>
+</ul>
+</div></div></article><article class="postlist-item post"><header class="post-header"><h1 class="post-title"><a class="post-title__link" href="/2021/08/24/AndroidgameReTest01/">Android游戏逆向的初尝试</a></h1><div class="post-meta"><span class="post-meta-item post-meta-item--createtime"><span class="post-meta-item__icon"><i class="far fa-calendar-plus"></i></span><span class="post-meta-item__info">发表于</span><span class="post-meta-item__value">2021-08-24</span></span><span class="post-meta-item post-meta-item--updatetime"><span class="post-meta-item__icon"><i class="far fa-calendar-check"></i></span><span class="post-meta-item__info">更新于</span><span class="post-meta-item__value">2022-01-25</span></span></div></header><div class="post-body"><div class="post-excerpt">
         <h1 id="前言"   >
           <a href="#前言" class="heading-link"><i class="fas fa-link"></i></a><a href="#前言" class="headerlink" title="前言"></a>前言</h1>
       <p>最近对玩游戏有点像修改金币之类的内容，但是之前没做过逆向类似的事情。</p>
@@ -68,4 +230,4 @@ window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 5.4.0"></he
       <p>虽然这次的逆向之路不完美，也没有达到想要的结果，但是了解了一些以前没试过的破解流程。后续会继续找些简单的内容，逐步尝试破解。</p>
 <p>要做破解最好还是要丰富自己的知识，最好要懂得汇编等机器语言，这样能够更好的看到代码在机器中运行时候的操作逻辑。</p>
 </div></div></article><article class="postlist-item post"><header class="post-header"><div class="sticky-top" data-popover="置顶文章" data-popover-pos="up"><span class="sticky-top__icon"><i class="fas fa-thumbtack"></i></span></div><h1 class="post-title"><a class="post-title__link" href="/2021/02/26/hello-world/">记录生活和学习的博客</a></h1><div class="post-meta"><span class="post-meta-item post-meta-item--createtime"><span class="post-meta-item__icon"><i class="far fa-calendar-plus"></i></span><span class="post-meta-item__info">发表于</span><span class="post-meta-item__value">2021-02-26</span></span><span class="post-meta-item post-meta-item--updatetime"><span class="post-meta-item__icon"><i class="far fa-calendar-check"></i></span><span class="post-meta-item__info">更新于</span><span class="post-meta-item__value">2021-08-20</span></span></div></header><div class="post-body"><div class="post-excerpt"><p>欢迎来到我的博客！这个博客会记录我学习和生活的点点滴滴。虽然更新不定时，也不知道会不会有人看，但是记录和分析自己想法，回头看应该也会有不少收获的吧~</p>
-</div></div></article></section><nav class="paginator"><div class="paginator-inner"><span class="page-number current">1</span></div></nav></div></div><div class="sidebar-wrap" id="sidebar-wrap"><aside class="sidebar" id="sidebar"><section class="sidebar-toc hide"></section><!-- ov = overview--><section class="sidebar-ov"><div class="sidebar-ov-author"><div class="sidebar-ov-author__avatar"><img class="sidebar-ov-author__avatar_img" src="/images/icons/favicon-32x32.png" alt="avatar"></div><p class="sidebar-ov-author__text">Hakold</p></div><div class="sidebar-ov-state"><a class="sidebar-ov-state-item sidebar-ov-state-item--posts" href="/archives/"><div class="sidebar-ov-state-item__count">2</div><div class="sidebar-ov-state-item__name">文章</div></a><a class="sidebar-ov-state-item sidebar-ov-state-item--categories" href="/categories/"><div class="sidebar-ov-state-item__count">1</div><div class="sidebar-ov-state-item__name">分类</div></a><a class="sidebar-ov-state-item sidebar-ov-state-item--tags" href="/tags/"><div class="sidebar-ov-state-item__count">1</div><div class="sidebar-ov-state-item__name">标签</div></a></div><div class="sidebar-ov-cc"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener" data-popover="知识共享许可协议" data-popover-pos="up"><img src="/images/cc-by-nc-sa.svg"></a></div></section></aside></div><div class="clearfix"></div></div></main><footer class="footer" id="footer"><div class="footer-inner"><div><span>Copyright © 2022</span><span class="footer__icon"><i class="fas fa-heart"></i></span><span>Hakold</span><span class="footer__devider">|</span><span>Hosted by <a href="https://gitee.com/hakold/" rel="noopener" target="_blank">Gitee Pages</a></span></div><div><span>由 <a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a> 强力驱动</span><span> v5.4.0</span><span class="footer__devider">|</span><span>主题 - <a href="https://github.com/liuyib/hexo-theme-stun/" title="Stun" target="_blank" rel="noopener">Stun</a></span><span> v2.6.2</span></div><div class="busuanzi"><span class="busuanzi-siteuv"><span class="busuanzi-siteuv__icon"><i class="fas fa-user"></i></span><span class="busuanzi-siteuv__info">访问人数</span><span class="busuanzi-siteuv__value" id="busuanzi_value_site_uv"></span></span><span class="busuanzi-sitepv"><span class="busuanzi-siteuv__icon"><i class="fas fa-eye"></i></span><span class="busuanzi-siteuv__info">浏览总量</span><span class="busuanzi-siteuv__value" id="busuanzi_value_site_pv"></span></span></div><div><div>Hakold的程序和摄影学习记录网	网站备案：<a target="_blank" rel="noopener" href="https://beian.miit.gov.cn/"> 粤ICP备20008821号-2</a></div></div></div></footer><div class="loading-bar" id="loading-bar"><div class="loading-bar__progress"></div></div><div class="back2top" id="back2top"><span class="back2top__icon"><i class="fas fa-rocket"></i></span></div></div><script src="https://cdn.jsdelivr.net/npm/jquery@v3.4.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.ui.min.js"></script><script src="https://cdn.jsdelivr.net/npm/canvas-nest.js@1.0.1/dist/canvas-nest.min.js" color="0,0,0" opacity="0.6" count="99" zIndex="-1"></script><script src="https://cdn.jsdelivr.net/gh/sukkaw/busuanzi@latest/bsz.pure.mini.js" async></script><script src="/js/utils.js?v=2.6.2"></script><script src="/js/stun-boot.js?v=2.6.2"></script><script src="/js/scroll.js?v=2.6.2"></script><script src="/js/header.js?v=2.6.2"></script><script src="/js/sidebar.js?v=2.6.2"></script></body></html>
+</div></div></article></section><nav class="paginator"><div class="paginator-inner"><span class="page-number current">1</span></div></nav></div></div><div class="sidebar-wrap" id="sidebar-wrap"><aside class="sidebar" id="sidebar"><section class="sidebar-toc hide"></section><!-- ov = overview--><section class="sidebar-ov"><div class="sidebar-ov-author"><div class="sidebar-ov-author__avatar"><img class="sidebar-ov-author__avatar_img" src="/images/icons/favicon-32x32.png" alt="avatar"></div><p class="sidebar-ov-author__text">Hakold</p></div><div class="sidebar-ov-state"><a class="sidebar-ov-state-item sidebar-ov-state-item--posts" href="/archives/"><div class="sidebar-ov-state-item__count">4</div><div class="sidebar-ov-state-item__name">文章</div></a><a class="sidebar-ov-state-item sidebar-ov-state-item--categories" href="/categories/"><div class="sidebar-ov-state-item__count">2</div><div class="sidebar-ov-state-item__name">分类</div></a><a class="sidebar-ov-state-item sidebar-ov-state-item--tags" href="/tags/"><div class="sidebar-ov-state-item__count">4</div><div class="sidebar-ov-state-item__name">标签</div></a></div><div class="sidebar-ov-cc"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener" data-popover="知识共享许可协议" data-popover-pos="up"><img src="/images/cc-by-nc-sa.svg"></a></div></section></aside></div><div class="clearfix"></div></div></main><footer class="footer" id="footer"><div class="footer-inner"><div><span>Copyright © 2022</span><span class="footer__icon"><i class="fas fa-heart"></i></span><span>Hakold</span><span class="footer__devider">|</span><span>Hosted by <a href="https://gitee.com/hakold/" rel="noopener" target="_blank">Gitee Pages</a></span></div><div><span>由 <a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a> 强力驱动</span><span> v5.4.0</span><span class="footer__devider">|</span><span>主题 - <a href="https://github.com/liuyib/hexo-theme-stun/" title="Stun" target="_blank" rel="noopener">Stun</a></span><span> v2.6.2</span></div><div class="busuanzi"><span class="busuanzi-siteuv"><span class="busuanzi-siteuv__icon"><i class="fas fa-user"></i></span><span class="busuanzi-siteuv__info">访问人数</span><span class="busuanzi-siteuv__value" id="busuanzi_value_site_uv"></span></span><span class="busuanzi-sitepv"><span class="busuanzi-siteuv__icon"><i class="fas fa-eye"></i></span><span class="busuanzi-siteuv__info">浏览总量</span><span class="busuanzi-siteuv__value" id="busuanzi_value_site_pv"></span></span></div><div><div>Hakold的程序和摄影学习记录网	备案号：<a target="_blank" rel="noopener" href="https://beian.miit.gov.cn/"> 粤ICP备20008821号-2</a></div></div></div></footer><div class="loading-bar" id="loading-bar"><div class="loading-bar__progress"></div></div><div class="back2top" id="back2top"><span class="back2top__icon"><i class="fas fa-rocket"></i></span></div></div><script src="https://cdn.jsdelivr.net/npm/jquery@v3.4.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.ui.min.js"></script><script src="https://cdn.jsdelivr.net/npm/canvas-nest.js@1.0.1/dist/canvas-nest.min.js" color="0,0,0" opacity="0.6" count="99" zIndex="-1"></script><script src="https://cdn.jsdelivr.net/gh/sukkaw/busuanzi@latest/bsz.pure.mini.js" async></script><script src="/js/utils.js?v=2.6.2"></script><script src="/js/stun-boot.js?v=2.6.2"></script><script src="/js/scroll.js?v=2.6.2"></script><script src="/js/header.js?v=2.6.2"></script><script src="/js/sidebar.js?v=2.6.2"></script></body></html>
