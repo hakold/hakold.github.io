@@ -1,11 +1,11 @@
-#waifu-toggle {
+<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>#waifu-toggle {
 	background-color: #fa0;
 	border-radius: 5px;
 	bottom: 66px;
 	color: #fff;
 	cursor: pointer;
 	font-size: 12px;
-	left: 0;
+	right: 0;
 	margin-left: -100px;
 	padding: 5px 2px 5px 5px;
 	position: fixed;
@@ -24,7 +24,7 @@
 
 #waifu {
 	bottom: -1000px;
-	left: 0;
+	right: 18px;
 	line-height: 0;
 	margin-bottom: -10px;
 	position: fixed;

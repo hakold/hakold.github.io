@@ -223,7 +223,6 @@ $(document).ready(function () {
     })
     initTocDisplay()
   }
-
   // Initialization
   Stun.utils.pjaxReloadSidebar()
 })
